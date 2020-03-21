@@ -1,0 +1,4 @@
+name: SnowkUUFixer
+main: com.snowk.snowkUUFixer.SnowkUUFixer
+version: 1.0
+api-version: 1.12
