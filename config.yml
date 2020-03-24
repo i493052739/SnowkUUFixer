@@ -1,5 +1,8 @@
 
-# BannedItem List by IDs
+# ScannerID in your server 你服务器中的扫描仪ID （必须带尾缀value，如4111:64）
+ScannerId:
+  - '4096:64'
+# BannedItem List by IDs that Scanner cannot accept 扫描仪不可扫描的物品ID（可以带尾缀value）
 bannedItemId:
   - '4484'
   - '4483'
@@ -16,5 +19,14 @@ bannedItemId:
   - '4111:3'
   - '4111:4'
 
+# the block IDs which cannot link with IC2_Scanner 不可与扫描仪相连的方块ID （必须为纯数字，不可带尾缀value）
+bannedBlockId:
+  - 154
+  - 4096
+  - 23
+  - 158
+
 # Messages
 Message-1: "§b[Snowk]§e模式扫描仪难以拆解不纯的原矿石，请冶炼后再进行复制"
+Message-2: "§b[Snowk]§e由于安全问题，模式扫描机不可和工业机器连接"
+Message-3: "§b[Snowk]§e由于安全问题，模式扫描机周边不可被该方块连接"
